@@ -1,0 +1,124 @@
+{
+  "uid" : "4eae22c253e1b56",
+  "name" : "user should save the note",
+  "fullName" : "webedims-visits page.user should save the note",
+  "historyId" : "dc7ce12c5c6899d9130d7507acc1bd3c",
+  "time" : {
+    "start" : 1534274773766,
+    "stop" : 1534274774224,
+    "duration" : 458
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#table2\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#table2\").\n                    at getText(\"#table2\") -     at C:\\Users\\zorikb\\webtest\\node_modules\\wdio-sync\\build\\at elements(\"#table2\") - C:\\Users\\zorikb\\webtest\\node_modules\\webdriverio\\build\\lib\\commands\\getText.js:18:17",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#table2\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#table2\").\n                    at getText(\"#table2\") -     at C:\\Users\\zorikb\\webtest\\node_modules\\wdio-sync\\build\\at elements(\"#table2\") - C:\\Users\\zorikb\\webtest\\node_modules\\webdriverio\\build\\lib\\commands\\getText.js:18:17",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/1eb34531b65c236c0bc5d2c60e9bf7b3/elements",
+      "time" : {
+        "start" : 1534274773767,
+        "stop" : 1534274773795,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc19e8742029358",
+        "name" : "Request",
+        "source" : "bc19e8742029358.json",
+        "type" : "application/json",
+        "size" : 44
+      }, {
+        "uid" : "7102d9ddac01cc70",
+        "name" : "Response",
+        "source" : "7102d9ddac01cc70.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /wd/hub/session/1eb34531b65c236c0bc5d2c60e9bf7b3/screenshot",
+      "time" : {
+        "start" : 1534274773800,
+        "stop" : 1534274774224,
+        "duration" : 424
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#table2\").\n                    at getText(\"#table2\") -     at C:\\Users\\zorikb\\webtest\\node_modules\\wdio-sync\\build\\at elements(\"#table2\") - C:\\Users\\zorikb\\webtest\\node_modules\\webdriverio\\build\\lib\\commands\\getText.js:18:17",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d36e8c7d9f97f0f8",
+        "name" : "Screenshot",
+        "source" : "d36e8c7d9f97f0f8.png",
+        "type" : "image/png",
+        "size" : 25324
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "webedims-visits page"
+  }, {
+    "name" : "testClass",
+    "value" : "webedims-visits page"
+  }, {
+    "name" : "testMethod",
+    "value" : "user should save the note"
+  }, {
+    "name" : "package",
+    "value" : "webedims-visits page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4eae22c253e1b56.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "use should login",
+    "uid" : "5c1afec59034ea05",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1534274764003,
+      "stop" : 1534274773736,
+      "duration" : 9733
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "user should save the note",
+    "uid" : "4eae22c253e1b56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1534274773766,
+      "stop" : 1534274774224,
+      "duration" : 458
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

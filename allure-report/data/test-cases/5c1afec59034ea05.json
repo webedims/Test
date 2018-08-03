@@ -1,0 +1,94 @@
+{
+  "uid" : "5c1afec59034ea05",
+  "name" : "use should login",
+  "fullName" : "webedims-login page.use should login",
+  "historyId" : "7a2fcdc59f547837db9119864516efee",
+  "time" : {
+    "start" : 1534274764003,
+    "stop" : 1534274773736,
+    "duration" : 9733
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/1eb34531b65c236c0bc5d2c60e9bf7b3/url",
+      "time" : {
+        "start" : 1534274764022,
+        "stop" : 1534274764722,
+        "duration" : 700
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe89459213553704",
+        "name" : "Request",
+        "source" : "fe89459213553704.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "3fb8c6b0b23f62c1",
+        "name" : "Response",
+        "source" : "3fb8c6b0b23f62c1.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "webedims-login page"
+  }, {
+    "name" : "testClass",
+    "value" : "webedims-login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "use should login"
+  }, {
+    "name" : "package",
+    "value" : "webedims-login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c1afec59034ea05.json",
+  "parameterValues" : [ "chrome" ]
+}

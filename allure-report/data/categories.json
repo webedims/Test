@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An element could not be located on the page using the given search parameters (\"#table2\").",
+      "children" : [ {
+        "name" : "user should save the note",
+        "uid" : "4eae22c253e1b56",
+        "parentUid" : "221d26750ed7581c09129fdc39bbb27b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1534274773766,
+          "stop" : 1534274774224,
+          "duration" : 458
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "221d26750ed7581c09129fdc39bbb27b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

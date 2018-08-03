@@ -1,0 +1,41 @@
+{
+  "7a2fcdc59f547837db9119864516efee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c1afec59034ea05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534274764003,
+        "stop" : 1534274773736,
+        "duration" : 9733
+      }
+    } ]
+  },
+  "dc7ce12c5c6899d9130d7507acc1bd3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4eae22c253e1b56",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#table2\").",
+      "time" : {
+        "start" : 1534274773766,
+        "stop" : 1534274774224,
+        "duration" : 458
+      }
+    } ]
+  }
+}

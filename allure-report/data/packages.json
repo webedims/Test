@@ -1,0 +1,37 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "webedims-login page",
+    "children" : [ {
+      "name" : "use should login",
+      "uid" : "5c1afec59034ea05",
+      "parentUid" : "943cdb9d637b654a3ab6d67dead9ddf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1534274764003,
+        "stop" : 1534274773736,
+        "duration" : 9733
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "943cdb9d637b654a3ab6d67dead9ddf8"
+  }, {
+    "name" : "webedims-visits page",
+    "children" : [ {
+      "name" : "user should save the note",
+      "uid" : "4eae22c253e1b56",
+      "parentUid" : "3987434da5978b26fddc6678b3304e53",
+      "status" : "broken",
+      "time" : {
+        "start" : 1534274773766,
+        "stop" : 1534274774224,
+        "duration" : 458
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "3987434da5978b26fddc6678b3304e53"
+  } ]
+}

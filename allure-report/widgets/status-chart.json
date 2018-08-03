@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5c1afec59034ea05",
+  "name" : "use should login",
+  "time" : {
+    "start" : 1534274764003,
+    "stop" : 1534274773736,
+    "duration" : 9733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4eae22c253e1b56",
+  "name" : "user should save the note",
+  "time" : {
+    "start" : 1534274773766,
+    "stop" : 1534274774224,
+    "duration" : 458
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
